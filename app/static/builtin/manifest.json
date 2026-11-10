@@ -1,0 +1,973 @@
+{
+  "filters": [
+    {
+      "id": "original",
+      "name": "原片",
+      "desc": "不处理",
+      "sw": [
+        "#64748b",
+        "#94a3b8"
+      ],
+      "grade": {
+        "brightness": 0,
+        "contrast": 1,
+        "saturation": 1,
+        "hue": 0,
+        "temperature": 0,
+        "vignette": 0
+      }
+    },
+    {
+      "id": "cinema",
+      "name": "电影感",
+      "desc": "低饱和高对比",
+      "sw": [
+        "#0f172a",
+        "#38bdf8"
+      ],
+      "grade": {
+        "brightness": 0.02,
+        "contrast": 1.18,
+        "saturation": 0.88,
+        "hue": -3,
+        "temperature": -0.08,
+        "vignette": 0.22
+      }
+    },
+    {
+      "id": "cool",
+      "name": "冷调",
+      "desc": "青蓝夜景",
+      "sw": [
+        "#0c4a6e",
+        "#67e8f9"
+      ],
+      "grade": {
+        "brightness": 0.01,
+        "contrast": 1.08,
+        "saturation": 0.9,
+        "hue": 16,
+        "temperature": -0.28,
+        "vignette": 0.12
+      }
+    },
+    {
+      "id": "warm",
+      "name": "暖阳",
+      "desc": "橙金日光",
+      "sw": [
+        "#7c2d12",
+        "#fbbf24"
+      ],
+      "grade": {
+        "brightness": 0.03,
+        "contrast": 1.04,
+        "saturation": 1.08,
+        "hue": -12,
+        "temperature": 0.3,
+        "vignette": 0.08
+      }
+    },
+    {
+      "id": "mono",
+      "name": "黑白",
+      "desc": "经典单色",
+      "sw": [
+        "#111827",
+        "#f3f4f6"
+      ],
+      "grade": {
+        "brightness": 0,
+        "contrast": 1.22,
+        "saturation": 0,
+        "hue": 0,
+        "temperature": 0,
+        "vignette": 0.18
+      }
+    },
+    {
+      "id": "vintage",
+      "name": "复古",
+      "desc": "褪色胶片",
+      "sw": [
+        "#78350f",
+        "#fcd34d"
+      ],
+      "grade": {
+        "brightness": -0.03,
+        "contrast": 0.92,
+        "saturation": 0.72,
+        "hue": 20,
+        "temperature": 0.12,
+        "vignette": 0.35
+      }
+    },
+    {
+      "id": "vivid",
+      "name": "鲜艳",
+      "desc": "高饱和",
+      "sw": [
+        "#be123c",
+        "#22d3ee"
+      ],
+      "grade": {
+        "brightness": 0.01,
+        "contrast": 1.1,
+        "saturation": 1.38,
+        "hue": 0,
+        "temperature": 0,
+        "vignette": 0
+      }
+    },
+    {
+      "id": "fade",
+      "name": "褪色",
+      "desc": "低对比灰雾",
+      "sw": [
+        "#374151",
+        "#d1d5db"
+      ],
+      "grade": {
+        "brightness": 0.06,
+        "contrast": 0.82,
+        "saturation": 0.62,
+        "hue": 8,
+        "temperature": 0.04,
+        "vignette": 0.1
+      }
+    },
+    {
+      "id": "night",
+      "name": "夜景",
+      "desc": "压暗提蓝",
+      "sw": [
+        "#020617",
+        "#1d4ed8"
+      ],
+      "grade": {
+        "brightness": 0.08,
+        "contrast": 1.2,
+        "saturation": 0.78,
+        "hue": 10,
+        "temperature": -0.22,
+        "vignette": 0.4
+      }
+    },
+    {
+      "id": "contrast",
+      "name": "高对比",
+      "desc": "硬朗层次",
+      "sw": [
+        "#000000",
+        "#f8fafc"
+      ],
+      "grade": {
+        "brightness": 0,
+        "contrast": 1.35,
+        "saturation": 1.02,
+        "hue": 0,
+        "temperature": 0,
+        "vignette": 0.12
+      }
+    },
+    {
+      "id": "teal_orange",
+      "name": "青橙",
+      "desc": "电影青橙",
+      "sw": [
+        "#0f766e",
+        "#fb923c"
+      ],
+      "grade": {
+        "brightness": 0.01,
+        "contrast": 1.12,
+        "saturation": 1.16,
+        "hue": -6,
+        "temperature": 0.18,
+        "vignette": 0.2
+      }
+    },
+    {
+      "id": "japanese",
+      "name": "日系",
+      "desc": "清新明亮",
+      "sw": [
+        "#bae6fd",
+        "#fef3c7"
+      ],
+      "grade": {
+        "brightness": 0.08,
+        "contrast": 0.92,
+        "saturation": 0.86,
+        "hue": 4,
+        "temperature": 0.12,
+        "vignette": 0.06
+      }
+    },
+    {
+      "id": "nordic",
+      "name": "北欧冷灰",
+      "desc": "低饱和冷色",
+      "sw": [
+        "#334155",
+        "#cbd5e1"
+      ],
+      "grade": {
+        "brightness": 0.02,
+        "contrast": 1.04,
+        "saturation": 0.58,
+        "hue": 4,
+        "temperature": -0.18,
+        "vignette": 0.15
+      }
+    },
+    {
+      "id": "sepia",
+      "name": "棕褐",
+      "desc": "怀旧棕调",
+      "sw": [
+        "#78350f",
+        "#fde68a"
+      ],
+      "grade": {
+        "brightness": 0.02,
+        "contrast": 1.02,
+        "saturation": 0.32,
+        "hue": 28,
+        "temperature": 0.22,
+        "vignette": 0.3
+      }
+    },
+    {
+      "id": "neon",
+      "name": "霓虹",
+      "desc": "高饱和高对比",
+      "sw": [
+        "#6d28d9",
+        "#22d3ee"
+      ],
+      "grade": {
+        "brightness": 0.02,
+        "contrast": 1.2,
+        "saturation": 1.5,
+        "hue": 10,
+        "temperature": -0.1,
+        "vignette": 0.2
+      }
+    },
+    {
+      "id": "dream",
+      "name": "柔光",
+      "desc": "低对比梦幻",
+      "sw": [
+        "#c4b5fd",
+        "#fbcfe8"
+      ],
+      "grade": {
+        "brightness": 0.1,
+        "contrast": 0.88,
+        "saturation": 1.05,
+        "hue": -4,
+        "temperature": 0.08,
+        "vignette": 0.05
+      }
+    },
+    {
+      "id": "noir",
+      "name": "黑色电影",
+      "desc": "硬黑对比",
+      "sw": [
+        "#020617",
+        "#94a3b8"
+      ],
+      "grade": {
+        "brightness": -0.02,
+        "contrast": 1.45,
+        "saturation": 0,
+        "hue": 0,
+        "temperature": -0.05,
+        "vignette": 0.45
+      }
+    },
+    {
+      "id": "sunset",
+      "name": "落日",
+      "desc": "暖橙金调",
+      "sw": [
+        "#7c2d12",
+        "#fdba74"
+      ],
+      "grade": {
+        "brightness": 0.03,
+        "contrast": 1.05,
+        "saturation": 1.12,
+        "hue": -8,
+        "temperature": 0.32,
+        "vignette": 0.18
+      }
+    },
+    {
+      "id": "mint",
+      "name": "薄荷",
+      "desc": "清新青绿",
+      "sw": [
+        "#0f766e",
+        "#bbf7d0"
+      ],
+      "grade": {
+        "brightness": 0.02,
+        "contrast": 1.02,
+        "saturation": 1.05,
+        "hue": 18,
+        "temperature": -0.12,
+        "vignette": 0.05
+      }
+    },
+    {
+      "id": "autumn",
+      "name": "秋日",
+      "desc": "金棕低色温",
+      "sw": [
+        "#92400e",
+        "#fcd34d"
+      ],
+      "grade": {
+        "brightness": 0.01,
+        "contrast": 1.06,
+        "saturation": 1.1,
+        "hue": -18,
+        "temperature": 0.25,
+        "vignette": 0.22
+      }
+    },
+    {
+      "id": "ice",
+      "name": "冰川",
+      "desc": "冷蓝通透",
+      "sw": [
+        "#0c4a6e",
+        "#e0f2fe"
+      ],
+      "grade": {
+        "brightness": 0.04,
+        "contrast": 1.06,
+        "saturation": 0.8,
+        "hue": 6,
+        "temperature": -0.3,
+        "vignette": 0.1
+      }
+    },
+    {
+      "id": "retro",
+      "name": "80 年代",
+      "desc": "紫粉复古",
+      "sw": [
+        "#6d28d9",
+        "#f472b6"
+      ],
+      "grade": {
+        "brightness": 0.02,
+        "contrast": 1.08,
+        "saturation": 1.22,
+        "hue": 12,
+        "temperature": 0.1,
+        "vignette": 0.28
+      }
+    }
+  ],
+  "subtitles": [
+    {
+      "id": "cinema_title",
+      "name": "电影标题",
+      "desc": "大字号居中偏下",
+      "style": {
+        "text": "在这里输入标题",
+        "size": 76,
+        "y": 0.82,
+        "color": "#ffffff",
+        "bg": false,
+        "bold": true
+      }
+    },
+    {
+      "id": "opening",
+      "name": "开场大标题",
+      "desc": "超大居中标题",
+      "style": {
+        "text": "开场标题",
+        "size": 92,
+        "y": 0.42,
+        "color": "#ffffff",
+        "bg": false,
+        "bold": true
+      }
+    },
+    {
+      "id": "documentary",
+      "name": "纪录片",
+      "desc": "白字暗底",
+      "style": {
+        "text": "纪录片旁白字幕",
+        "size": 48,
+        "y": 0.88,
+        "color": "#f8fafc",
+        "bg": true,
+        "bold": true
+      }
+    },
+    {
+      "id": "news",
+      "name": "新闻条",
+      "desc": "底部信息条",
+      "style": {
+        "text": "新闻标题 / NEWS",
+        "size": 44,
+        "y": 0.9,
+        "color": "#ffffff",
+        "bg": true,
+        "bold": true
+      }
+    },
+    {
+      "id": "variety",
+      "name": "综艺",
+      "desc": "琥珀色大字",
+      "style": {
+        "text": "综艺花字",
+        "size": 64,
+        "y": 0.78,
+        "color": "#fbbf24",
+        "bg": true,
+        "bold": true
+      }
+    },
+    {
+      "id": "minimal",
+      "name": "极简字幕",
+      "desc": "小字无底框",
+      "style": {
+        "text": "极简字幕",
+        "size": 38,
+        "y": 0.92,
+        "color": "#ffffff",
+        "bg": false,
+        "bold": false
+      }
+    },
+    {
+      "id": "ending",
+      "name": "片尾卡",
+      "desc": "居中标题",
+      "style": {
+        "text": "感谢观看",
+        "size": 58,
+        "y": 0.5,
+        "color": "#ffffff",
+        "bg": false,
+        "bold": true
+      }
+    },
+    {
+      "id": "chapter",
+      "name": "章节标题",
+      "desc": "左上角小标题",
+      "style": {
+        "text": "第一章 · 出发",
+        "size": 46,
+        "y": 0.16,
+        "color": "#fbbf24",
+        "bg": false,
+        "bold": true
+      }
+    },
+    {
+      "id": "quote",
+      "name": "金句引用",
+      "desc": "居中偏下带底框",
+      "style": {
+        "text": "把想说的话留在这里",
+        "size": 46,
+        "y": 0.8,
+        "color": "#f8fafc",
+        "bg": true,
+        "bold": true
+      }
+    },
+    {
+      "id": "location",
+      "name": "地点时间",
+      "desc": "底部小字",
+      "style": {
+        "text": "2026 · 上海",
+        "size": 34,
+        "y": 0.94,
+        "color": "#e2e8f0",
+        "bg": true,
+        "bold": false
+      }
+    },
+    {
+      "id": "namecard",
+      "name": "人物介绍",
+      "desc": "下三分之一",
+      "style": {
+        "text": "姓名 / 身份",
+        "size": 42,
+        "y": 0.76,
+        "color": "#ffffff",
+        "bg": true,
+        "bold": true
+      }
+    },
+    {
+      "id": "bilingual",
+      "name": "双语字幕",
+      "desc": "中英双语",
+      "style": {
+        "text": "中文字幕\nEnglish subtitle",
+        "size": 42,
+        "y": 0.88,
+        "color": "#ffffff",
+        "bg": true,
+        "bold": true
+      }
+    },
+    {
+      "id": "warning",
+      "name": "警示提示",
+      "desc": "红色居中提示",
+      "style": {
+        "text": "请注意安全",
+        "size": 46,
+        "y": 0.5,
+        "color": "#f87171",
+        "bg": true,
+        "bold": true
+      }
+    },
+    {
+      "id": "countdown",
+      "name": "倒计时",
+      "desc": "巨大数字",
+      "style": {
+        "text": "3",
+        "size": 120,
+        "y": 0.5,
+        "color": "#fbbf24",
+        "bg": false,
+        "bold": true
+      }
+    },
+    {
+      "id": "speaker",
+      "name": "发言人标签",
+      "desc": "左上角标签",
+      "style": {
+        "text": "发言人：嘉宾",
+        "size": 32,
+        "y": 0.12,
+        "color": "#ffffff",
+        "bg": true,
+        "bold": true
+      }
+    },
+    {
+      "id": "date_stamp",
+      "name": "日期戳",
+      "desc": "右下角日期",
+      "style": {
+        "text": "2026.11.07",
+        "size": 30,
+        "y": 0.92,
+        "color": "#fbbf24",
+        "bg": false,
+        "bold": true
+      }
+    }
+  ],
+  "stickers": [
+    {
+      "id": "new",
+      "name": "NEW 标签",
+      "file": "stickers/new.png",
+      "scale": 0.25,
+      "x": 0.78,
+      "y": 0.18
+    },
+    {
+      "id": "rec",
+      "name": "REC 录制",
+      "file": "stickers/rec.png",
+      "scale": 0.22,
+      "x": 0.18,
+      "y": 0.12
+    },
+    {
+      "id": "subscribe",
+      "name": "订阅按钮",
+      "file": "stickers/subscribe.png",
+      "scale": 0.3,
+      "x": 0.5,
+      "y": 0.86
+    },
+    {
+      "id": "lower_third",
+      "name": "下三分之一条",
+      "file": "stickers/lower_third.png",
+      "scale": 0.42,
+      "x": 0.5,
+      "y": 0.78
+    },
+    {
+      "id": "cut",
+      "name": "CUT 花字",
+      "file": "stickers/cut.png",
+      "scale": 0.28,
+      "x": 0.5,
+      "y": 0.3
+    },
+    {
+      "id": "arrow",
+      "name": "箭头 GO",
+      "file": "stickers/arrow.png",
+      "scale": 0.22,
+      "x": 0.76,
+      "y": 0.7
+    },
+    {
+      "id": "sparkle",
+      "name": "闪光星星",
+      "file": "stickers/sparkle.png",
+      "scale": 0.16,
+      "x": 0.68,
+      "y": 0.28
+    },
+    {
+      "id": "like",
+      "name": "点赞",
+      "file": "stickers/like.png",
+      "scale": 0.25,
+      "x": 0.5,
+      "y": 0.88
+    },
+    {
+      "id": "live",
+      "name": "LIVE 直播中",
+      "file": "stickers/live.png",
+      "scale": 0.28,
+      "x": 0.5,
+      "y": 0.12
+    },
+    {
+      "id": "hot",
+      "name": "热播中",
+      "file": "stickers/hot.png",
+      "scale": 0.26,
+      "x": 0.24,
+      "y": 0.88
+    },
+    {
+      "id": "hd",
+      "name": "4K HDR 角标",
+      "file": "stickers/hd.png",
+      "scale": 0.18,
+      "x": 0.86,
+      "y": 0.16
+    },
+    {
+      "id": "follow",
+      "name": "关注按钮",
+      "file": "stickers/follow.png",
+      "scale": 0.26,
+      "x": 0.72,
+      "y": 0.88
+    },
+    {
+      "id": "share",
+      "name": "分享按钮",
+      "file": "stickers/share.png",
+      "scale": 0.24,
+      "x": 0.18,
+      "y": 0.88
+    },
+    {
+      "id": "top1",
+      "name": "TOP 1 奖牌",
+      "file": "stickers/top1.png",
+      "scale": 0.22,
+      "x": 0.5,
+      "y": 0.22
+    },
+    {
+      "id": "red_circle",
+      "name": "重点圈选",
+      "file": "stickers/red_circle.png",
+      "scale": 0.3,
+      "x": 0.5,
+      "y": 0.5
+    },
+    {
+      "id": "underline",
+      "name": "手绘下划线",
+      "file": "stickers/underline.png",
+      "scale": 0.4,
+      "x": 0.5,
+      "y": 0.7
+    },
+    {
+      "id": "arrow_white",
+      "name": "白色箭头",
+      "file": "stickers/arrow_white.png",
+      "scale": 0.26,
+      "x": 0.5,
+      "y": 0.62
+    },
+    {
+      "id": "speech",
+      "name": "对话气泡",
+      "file": "stickers/speech.png",
+      "scale": 0.3,
+      "x": 0.5,
+      "y": 0.42
+    },
+    {
+      "id": "bang",
+      "name": "感叹号气泡",
+      "file": "stickers/bang.png",
+      "scale": 0.18,
+      "x": 0.78,
+      "y": 0.3
+    },
+    {
+      "id": "star",
+      "name": "金星",
+      "file": "stickers/star.png",
+      "scale": 0.16,
+      "x": 0.82,
+      "y": 0.24
+    },
+    {
+      "id": "lower_third_blue",
+      "name": "蓝色人物条",
+      "file": "stickers/lower_third_blue.png",
+      "scale": 0.46,
+      "x": 0.5,
+      "y": 0.8
+    }
+  ],
+  "audio": [
+    {
+      "id": "ambient",
+      "name": "氛围铺底",
+      "desc": "20 秒合成氛围",
+      "file": "audio/ambient.mp3",
+      "duration": 20.19
+    },
+    {
+      "id": "whoosh",
+      "name": "转场 Whoosh",
+      "desc": "1.4 秒噪声扫频",
+      "file": "audio/whoosh.wav",
+      "duration": 1.4
+    },
+    {
+      "id": "impact",
+      "name": "低频 Impact",
+      "desc": "1.2 秒重击",
+      "file": "audio/impact.wav",
+      "duration": 1.2
+    },
+    {
+      "id": "click",
+      "name": "UI Click",
+      "desc": "0.18 秒点击",
+      "file": "audio/click.wav",
+      "duration": 0.18
+    },
+    {
+      "id": "pop",
+      "name": "气泡 Pop",
+      "desc": "轻快短音",
+      "file": "audio/pop.wav",
+      "duration": 0.18
+    },
+    {
+      "id": "notification",
+      "name": "通知提示",
+      "desc": "双音提示",
+      "file": "audio/notification.wav",
+      "duration": 0.9
+    },
+    {
+      "id": "swoosh",
+      "name": "快速转场",
+      "desc": "0.9 秒扫频",
+      "file": "audio/swoosh.wav",
+      "duration": 0.9
+    },
+    {
+      "id": "riser",
+      "name": "情绪上升",
+      "desc": "2 秒渐强",
+      "file": "audio/riser.wav",
+      "duration": 2.0
+    },
+    {
+      "id": "glitch",
+      "name": "故障 Glitch",
+      "desc": "数字故障音",
+      "file": "audio/glitch.wav",
+      "duration": 0.6
+    },
+    {
+      "id": "heartbeat",
+      "name": "心跳",
+      "desc": "低频双拍",
+      "file": "audio/heartbeat.wav",
+      "duration": 1.3
+    },
+    {
+      "id": "typing",
+      "name": "键盘打字",
+      "desc": "机械键盘声",
+      "file": "audio/typing.wav",
+      "duration": 1.2
+    },
+    {
+      "id": "camera",
+      "name": "相机快门",
+      "desc": "拍照咔嚓",
+      "file": "audio/camera.wav",
+      "duration": 0.35
+    },
+    {
+      "id": "bell",
+      "name": "铃声",
+      "desc": "清亮铃音",
+      "file": "audio/bell.wav",
+      "duration": 1.6
+    },
+    {
+      "id": "bass_drop",
+      "name": "低音下潜",
+      "desc": "Bass Drop",
+      "file": "audio/bass_drop.wav",
+      "duration": 1.6
+    },
+    {
+      "id": "applause",
+      "name": "掌声",
+      "desc": "人群鼓掌",
+      "file": "audio/applause.wav",
+      "duration": 2.0
+    },
+    {
+      "id": "countdown",
+      "name": "倒计时提示",
+      "desc": "三声提示音",
+      "file": "audio/countdown.wav",
+      "duration": 1.0
+    }
+  ],
+  "effects": [
+    {
+      "id": "mosaic_center",
+      "name": "中央马赛克",
+      "desc": "画面中央 50% 像素化",
+      "mode": "pixel",
+      "block": 16,
+      "x": 0.25,
+      "y": 0.25,
+      "w": 0.5,
+      "h": 0.5
+    },
+    {
+      "id": "mosaic_face",
+      "name": "人像打码",
+      "desc": "偏上区域，可再调位置",
+      "mode": "pixel",
+      "block": 20,
+      "x": 0.32,
+      "y": 0.16,
+      "w": 0.36,
+      "h": 0.36
+    },
+    {
+      "id": "mosaic_strong",
+      "name": "强马赛克",
+      "desc": "大块覆盖中央",
+      "mode": "pixel",
+      "block": 36,
+      "x": 0.2,
+      "y": 0.2,
+      "w": 0.6,
+      "h": 0.6
+    },
+    {
+      "id": "mosaic_full",
+      "name": "全屏马赛克",
+      "desc": "整幅画面像素化",
+      "mode": "pixel",
+      "block": 28,
+      "x": 0.0,
+      "y": 0.0,
+      "w": 1.0,
+      "h": 1.0
+    },
+    {
+      "id": "blur_center",
+      "name": "中央高斯模糊",
+      "desc": "柔和虚化中央区域",
+      "mode": "blur",
+      "block": 24,
+      "x": 0.25,
+      "y": 0.25,
+      "w": 0.5,
+      "h": 0.5
+    },
+    {
+      "id": "blur_face",
+      "name": "人像模糊",
+      "desc": "隐私模糊，边缘更自然",
+      "mode": "blur",
+      "block": 32,
+      "x": 0.3,
+      "y": 0.14,
+      "w": 0.4,
+      "h": 0.42
+    },
+    {
+      "id": "blur_bottom",
+      "name": "底部模糊条",
+      "desc": "虚化底部信息区",
+      "mode": "blur",
+      "block": 20,
+      "x": 0.0,
+      "y": 0.78,
+      "w": 1.0,
+      "h": 0.22
+    },
+    {
+      "id": "black_bar",
+      "name": "黑条遮挡",
+      "desc": "纯黑遮挡底部区域",
+      "mode": "black",
+      "block": 16,
+      "x": 0.0,
+      "y": 0.78,
+      "w": 1.0,
+      "h": 0.22
+    },
+    {
+      "id": "black_face",
+      "name": "黑块遮挡",
+      "desc": "纯黑遮挡人像区域",
+      "mode": "black",
+      "block": 16,
+      "x": 0.33,
+      "y": 0.18,
+      "w": 0.34,
+      "h": 0.34
+    }
+  ]
+}

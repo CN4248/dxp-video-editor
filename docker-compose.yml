@@ -1,0 +1,32 @@
+services:
+  cinecut:
+    build:
+      context: .
+      args:
+        BASE_IMAGE: ${BASE_IMAGE:-python:3.12-alpine3.21}
+        APK_MIRROR: ${APK_MIRROR:-}
+        APP_VERSION: ${APP_VERSION:-1.3.2}
+    image: cinecut:${APP_VERSION:-1.3.2}
+    container_name: cinecut
+    network_mode: bridge
+    ports:
+      - "${WEB_PORT:-3873}:3873"
+    volumes:
+      # 宿主机目录全部走环境变量，默认落在仓库内的相对目录（见 .env.example）
+      - "${HOST_INPUT_DIR:-./input}:/input"
+      - "${HOST_OUTPUT_DIR:-./output}:/output"
+      - "./data:/data"
+    environment:
+      TZ: ${TZ:-Asia/Shanghai}
+      INPUT_ROOT: /input
+      OUTPUT_ROOT: /output
+      DATA_DIR: /data
+      PORT: "3873"
+      # 需要局域网访问口令时取消注释（用户名 cinecut）
+      # ACCESS_PASSWORD: ${ACCESS_PASSWORD:-}
+      MAX_UPLOAD_MB: "8192"
+    init: true
+    stop_grace_period: 30s
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true

@@ -1,0 +1,16 @@
+data/*
+!data/.gitkeep
+input/*
+!input/.gitkeep
+output/*
+!output/.gitkeep
+.env
+__pycache__/
+*.pyc
+tests/.testdata/
+tests/fixtures/data/
+tests/fixtures/output/
+tests/fixtures/input/*.mp4
+tests/fixtures/input/*.mp3
+tests/fixtures/input/*.png
+*.log
